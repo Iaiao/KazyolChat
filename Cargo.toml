@@ -1,5 +1,9 @@
 [package]
 name = "kazyol_chat"
+description = "Minecraft JSON chat format structs"
+homepage = "https://github.com/Iaiao/KazyolChat#readme"
+repository = "https://github.com/Iaiao/KazyolChat"
+readme = "README.md"
 version = "0.1.0"
 authors = ["Iaiao <err266228@gmail.com>"]
 edition = "2018"
