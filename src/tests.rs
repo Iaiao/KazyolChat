@@ -1,3 +1,4 @@
+#[allow(unused_imports)]
 use crate::{Chat, ChatBuilder, ChatOrString, ChatType, ClickEvent, Color, HoverEvent, HoverEventAction, HoverEventBuilder, Score};
 
 #[test]
