@@ -60,6 +60,15 @@ pub struct Chat {
     extra: Vec<Chat>,
 }
 
+impl Chat {
+    pub fn new(value: ChatType) -> Chat {
+        Chat {
+            value,
+            ..Default::default()
+        }
+    }
+}
+
 pub enum Color {
     RGB(u8, u8, u8),
     Black,
